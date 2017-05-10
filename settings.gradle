@@ -1,0 +1,7 @@
+rootProject.name = 'cloudstack'
+include 'cs-client-core'
+include 'cs-common'
+include 'cs-context'
+include 'cs-dynconfig-client'
+include 'cs-clustermanager-client'
+

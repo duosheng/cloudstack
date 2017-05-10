@@ -1,0 +1,36 @@
+group 'www.soouya.com'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+apply from: 'dependencies.gradle'
+
+sourceCompatibility = 1.7
+
+/** 此闭包内的声明子类皆可使用 */
+allprojects {
+
+    group 'www.soouya.com'
+    version '1.0-SNAPSHOT'
+
+    repositories {
+        repositories { maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' } }
+        repositories { maven { url 'https://repo.eclipse.org/content/repositories/paho-releases/' } }
+        mavenCentral()
+    }
+
+}
+
+subprojects {
+
+}
+
+task "create-dirs" << {
+    sourceSets*.java.srcDirs*.each {
+        it.mkdirs()
+    }
+    sourceSets*.resources.srcDirs*.each {
+        it.mkdirs()
+    }
+}

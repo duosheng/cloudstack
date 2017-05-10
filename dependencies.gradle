@@ -1,0 +1,24 @@
+allprojects {
+//    thinkjoyCommonVersion = "0.0.73-SNAPSHOT"
+
+//    thinkjoyCloudstackVersion = "0.0.23-SNAPSHOT"
+
+    //thinkjoyRedisVersion = "0.0.11-SNAPSHOT"
+
+//    springVersion = "4.1.0.RELEASE"
+//
+//    mysqlConnectorVersion = "5.1.26"
+//
+//    dubboVersion = "2.5.3"
+//    dubboZKClientVersion = "0.4"
+//
+//    freemarkerVersion = "2.3.20"
+//
+//    notifyVersion = "jx0.0.1-SNAPSHOT"
+//
+//    retrofitVersion = "1.8.0"
+//    okhttpVersion = "2.1.0"
+//    fastjsonVersion = "1.2.0"
+
+//    gradleScriptDir ="${rootProject.projectDir}/gradle"
+}
